@@ -1,0 +1,1 @@
+powerUp3Active = false;
