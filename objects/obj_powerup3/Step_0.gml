@@ -1,5 +1,5 @@
-gforce4 = y + 2;
-y = gforce4;
+
+y = y + gforce4;
 if (time3 > 0) {
 
 	obj_enemy.powerUp3Active = true;
