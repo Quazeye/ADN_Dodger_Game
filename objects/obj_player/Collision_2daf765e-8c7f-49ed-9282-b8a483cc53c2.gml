@@ -1,0 +1,1 @@
+time3 = 100; // sets the time3 when we touch powerup3 which is how long it will last
