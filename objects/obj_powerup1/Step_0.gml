@@ -1,8 +1,12 @@
+y = y + gforce2;
+
 if(invulnerability > 0)
 {
 
 	invulnerability = invulnerability -1;
 
+} else { 
+
+	invulnerability = 0;
+
 }
-gforce2 = y + 2;
-y = gforce2;

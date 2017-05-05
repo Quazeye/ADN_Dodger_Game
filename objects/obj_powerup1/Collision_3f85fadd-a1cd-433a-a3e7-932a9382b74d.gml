@@ -1,1 +1,1 @@
-invulnerability = 1800;
+invulnerability = 800;
