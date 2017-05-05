@@ -11,6 +11,10 @@ if(mouse_check_button(mb_left)) && (cooldown < 1)
 
 cooldown = cooldown - 1;
 
+
+
+/* powerup3 (slowdown) */
+
 // Check if time3 is great than 0 if the enemy exists
 // time3 will be greater than 0 when the powerup 3 collides with us.  Its how long the powerup3 lasts
 if (instance_exists(obj_enemy)) {

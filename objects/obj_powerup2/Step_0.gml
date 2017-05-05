@@ -6,5 +6,4 @@ if(time2 > 0)
 
 }
 
-gforce3 = y + 2;
-y = gforce3;
+y = y + gforce3;
