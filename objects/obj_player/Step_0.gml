@@ -6,10 +6,33 @@ if(keyboard_check(ord("A"))) x = x - 4
 if(mouse_check_button(mb_left)) && (cooldown < 1)
 {
 	instance_create_layer(x,y,"BulletsLayer",obj_bullet)
-	cooldown = 10;
+	
+	if (time2 > 0) 
+	{
+		cooldown = 0;
+		time2 = time2 - 1;
+	} else 
+	{
+		cooldown = 10;
+	}
 }
 
 cooldown = cooldown - 1;
+
+
+
+/* powerup1 (invulnerability) */
+
+if(invulnerability > 0)
+{
+
+	invulnerability = invulnerability -1;
+
+} else { 
+
+	invulnerability = 0;
+
+}
 
 
 
